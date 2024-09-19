@@ -19,11 +19,19 @@ print(words) #Outputs what was saved by input
 words = input("Enter your name: ") #Put your prompt inside the brackets
 print("Your name is " + words)
 
-#Review Concatentation
+#Review Concatentation - placing two strings side by side to create a new one
 
-
+word = "Hello " + "World"
+print(word)
 
 #F Strings
 
+num = 2
 
+word = f"Hello {words}, I hope you {num} have a good day"
+
+#requires f in front of the string
+#variables that you want placed in the string need to be inside {}
+
+print(word)
 
